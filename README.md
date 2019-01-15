@@ -34,6 +34,7 @@ aws lambda delete-layer-version --layer-name <layer-name> --version-number 4
 ```
 
 ## Matters needing attention
+* using ruby version: 2.5.0
 * the name of the zip file can be customized, but the name of the unzipped file must be **ruby**
 * A function can use up to 5 layers at a time.
 * function + all layers <= 250 MB (unzipped)
